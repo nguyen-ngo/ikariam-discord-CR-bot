@@ -47,9 +47,3 @@ def crParse(cr_file, cr):
     with open(cr_file, "w+") as result_file:
         result_file.write(json.dumps(cr_result))
     return attacker, defender, cr_change, cr_result
-
-
-def getTotalDamage():
-    with open("iks-vs-dwood.json".format(os.sep), "r") as result_file:
-        result = json.load(result_file)  # dict
-    return result
