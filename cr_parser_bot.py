@@ -1,4 +1,3 @@
-# Bot URL: https://discordapp.com/api/oauth2/authorize?client_id=535962207083692063&permissions=8&scope=bot
 import os
 import re
 import discord
@@ -10,7 +9,7 @@ prefix = "?"
 bot = commands.Bot(command_prefix=prefix)
 bot.remove_command("help")
 
-TOKEN = "NTM1OTYyMjA3MDgzNjkyMDYz.DyPybw.kh-lUvrh-0SDTWkXpqpunibWIMU"
+TOKEN = ""
 
 server_data_dir = "data"
 crs_data_dir = "crs"
